@@ -6,8 +6,6 @@ const api = require("./routes/index.js");
 const PORT = process.env.PORT || 8080;
 
 const app = express();
-
-// Import custom middleware, "cLog"
 //app.use(clog);
 
 // Middleware for parsing JSON and urlencoded form data
